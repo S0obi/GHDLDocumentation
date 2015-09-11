@@ -1,0 +1,2 @@
+# GHDLDocumentation
+Documentation for GHDL
