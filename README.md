@@ -17,6 +17,6 @@ In order to use ghdl on a 64bits operating system, we must tell the assembler, t
 Example with hello world :
 
 ```bash
-ghdl -a -Wc,-m32 -Wa,--32 hello.vhdl
-ghdl -e -Wa,--32 -Wl,-m32 hello_world
+ghdl -a -Wc,-m32 -Wa,--32 --ieee=synopsys hello.vhdl
+ghdl -e -Wa,--32 -Wl,-m32 --ieee=synopsys hello_world
 ```
